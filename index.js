@@ -23,7 +23,7 @@ fs.readdir("./commands/", (err, files) => {
 
 bot.on("ready", async () => {
   console.log(`${bot.user.username} is online on ${bot.guilds.size} servers!`);
-  bot.user.setActivity("sourfox.enjin.com/store | ;help", {type: "WATCHING"});
+  bot.user.setActivity("store.sourfox.net | ;help", {type: "WATCHING"});
 
 });
 
